@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import os
 
-from cms import __version__
 from setuptools import find_packages, setup
 
 
@@ -41,7 +40,6 @@ CLASSIFIERS = [
 
 setup(
     name='django-cms',
-    version=__version__,
     author='Django CMS Association and contributors',
     author_email='info@django-cms.org',
     url='https://www.django-cms.org/',
